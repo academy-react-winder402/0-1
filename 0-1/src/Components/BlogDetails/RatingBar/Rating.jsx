@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import star from './../../../assets/images/Common/star.png'
 
 const Rating = () => {
   const [rating, setRating] = useState(0);
@@ -11,7 +12,7 @@ const Rating = () => {
     return (
       <span onClick={() => onClick(value)}>
         <img
-          src="./star.svg"
+          src={star}
           alt="Star icon"
           fill={fillColor}
           className={value <= rating ? "none" : "-"}

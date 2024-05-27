@@ -1,10 +1,10 @@
 import React from 'react'
 import { NvbItems } from '../Nvbar/NvbItems'
 
-const CourseListNbar = () => {
+const CourseListNbar = ({searchHandler}) => {
   return (
-    <div className=' w-full h-10 flex justify-between gap-5'> 
-       <NvbItems />
+    <div className='w-[100%]  h-14 flex  gap-2 '> 
+       <NvbItems searchHandler={searchHandler} />
     
     </div>
   )

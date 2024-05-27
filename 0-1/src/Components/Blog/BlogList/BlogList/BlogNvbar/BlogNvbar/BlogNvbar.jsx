@@ -4,7 +4,7 @@ import { BlogNvbarItem } from '../BlogNvbarItems/BlogNvbarItem'
 
 const BlogNvbar = () => {
   return (
-    <div className='w-full h-14 flex justify-between item-center'> 
+    <div className='w-[95%] h-14 flex justify-between item-center'> 
           <BlogNvbarItem />    
           <Search />
       </div>

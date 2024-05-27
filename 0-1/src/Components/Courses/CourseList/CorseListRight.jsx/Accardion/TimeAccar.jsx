@@ -7,10 +7,10 @@ import { TimeCheckBox } from './TimeCheckBox'
 const TimeAccar = () => {
   return (
     <div>
-            <div className='relative w-full  bg-white border-b-2 rounded-xl'>
-        <input type='checkbox' id='input' className='peer absolute  ' />
-        <div  className='font-bold h-12 text-right ' for='input'> مدت زمان دوره   </div>
-        <div className='absolute top-[10px] left-[15px] rotate-0  peer-checked:rotate-180 duration-200'> <img className='w-4' src={style}/> </div> 
+            <div className='relative w-full  bg-white border-b border-b-gray-100 rounded-xl'>
+        <input type='checkbox' id='input' className='peer  mr-20  absolute top-[10px] left-[25px]' />
+        <div  className='font-bold h-12 text-right mr-9 mt-3 ' for='input'> مدت زمان دوره   </div>
+        <div className='absolute top-[10px] left-[15px] rotate-0  peer-checked:rotate-180 duration-200'>  </div> 
         <div className='max-h-0 overflow-hidden peer-checked:max-h-full'> 
             <div className='p-[1rem] text-sm'> 
                <TimeCheckBox />

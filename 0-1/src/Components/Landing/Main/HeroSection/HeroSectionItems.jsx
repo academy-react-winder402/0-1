@@ -6,13 +6,13 @@ import right from './../../../../assets/images/HeroSection/right.png'
 const HeroSectionItems = () => {
   return (
     <> 
-         <div className='w-40 h-96 mr-10 mt-[15rem]'> 
+         <div className='w-0 2xl:w-40 h-auto mr-10 ml-10 mt-[15rem] '> 
            <img className='w-full h-80' src={style} />
         </div>
-         <div className='w-1/2 h-96 mt-20'> 
+         <div className='w-1/2 h-auto mt-20  '> 
              <HeroSectionCenter />
           </div>
-         <div className='w-40 h-96  ml-10 mt-[15rem]'> 
+         <div className='w-0 2xl:w-40 h-auto  ml-10 mt-[15rem] mr-10'> 
            <img className='w-full  h-80' src={right}/> 
           </div>         
     </>

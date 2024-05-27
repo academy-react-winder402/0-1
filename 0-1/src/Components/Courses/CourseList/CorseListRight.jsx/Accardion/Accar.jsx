@@ -4,13 +4,12 @@ import { PriceRange } from './PriceRange'
 import { PriceCheckBox } from './PriceCheckBox'
 const Accar = () => {
   return (
-    <div className='relative   bg-white border-b-2 rounded-xl'>
-        <input type='checkbox' id='input' className='peer absolute  ' />
-        <div  className='font-bold h-14 text-right mr-4' for='input'> فیلتر   </div>
-        <div className='absolute top-[10px] left-[15px] rotate-0  peer-checked:rotate-180 duration-200'> <img className='w-4' src={style}/> </div> 
+    <div className='relative border-b border-b-gray-100  rounded-xl'>
+        <input type='checkbox' id='input' className='peer  mr-20  absolute top-[10px] left-[25px]' />
+        <div  className='font-bold h-14 text-right mr-10 mt-3' for='input'> فیلتر   </div>
         <div className='max-h-0 overflow-hidden peer-checked:max-h-full'> 
-            <div className='p-[1rem] text-sm'> 
-               <label className='text-xl font-bold absolute right-0 '>  قیمت  </label>
+            <div className='p-[1rem] text-sm '> 
+               <label className='text-xl font-bold absolute right-[20px] mr-4  '>  قیمت  </label>
                 <PriceRange />    
                 <PriceCheckBox />
            </div>

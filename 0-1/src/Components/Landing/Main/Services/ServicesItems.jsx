@@ -8,7 +8,7 @@ const ServicesItems = () => {
       {label: "مدارک معتبر" , des: " سهولت دسترسی و خدمات به سرتاسر کشور با کمترین هزینه بدون نیاز به مراجعه حضوری"} ,   
     ])
   return (
-    <div className='flex  mx-auto'>
+    <div className='h-auto  gap-10 lg:flex mt-5 md:grid-cols-1  md:mx-auto sm:mx-auto cursor-pointer '>
         {servicesItems.map((items , index) => {
             return (<Box  label={items.label} des={items.des}/>)
         })}

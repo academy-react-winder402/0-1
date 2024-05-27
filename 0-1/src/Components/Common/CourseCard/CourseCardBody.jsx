@@ -24,11 +24,11 @@ const CourseCardBody = ({ name, price, teacher, duration, sDate }) => {
         </div>
 
         <div className="teacher-section mt-3 mr-1 rounded-2xl  h-10  flex flex-row  items-right justify-right text-sm font-bold">
-          <div className="w-1/2   flex justify-start">
-            استاد:{teacher}
+          <div className="w-1/2   flex justify-start ">
+            استاد :<label className="text-gray-500">  {teacher} </label>
           </div>
           <div className="w-1/2   flex  justify-center">
-            265 دانش آموز
+           <label className="text-gray-500">   265 دانش آموز </label> 
           </div>
         </div>
 

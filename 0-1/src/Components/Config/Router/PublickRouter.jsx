@@ -10,6 +10,10 @@ import { PanelDash } from "../../Panel/PanelLayOut/PanelLayOutMain/PanelDash/Pan
 import { PanelChangePassword } from "../../Panel/PanelLayOut/PanelLayOutMain/PanelChangePassword/PanelChangePassword";
 import { Information } from "../../Panel/PanelLayOut/PanelLayOutMain/PanelInformation/Information/Information";
 import { BlogDetails } from "../../../Screens/BlogDetails/BlogDetails";
+import { UserLayout } from "../../../Screens/UserLayout/UserLayout";
+import { RegisterFormStep1 } from "../../User/RegisterHolder/RegisterForms/RegisterFormStep1";
+import { RegisterFormStep2 } from "../../User/RegisterHolder/RegisterForms/RegisterFormStep2";
+import { RegisterFormStep3 } from "../../User/RegisterHolder/RegisterForms/RegisterFormStep3";
 
 
 const Public = new createBrowserRouter([
@@ -20,7 +24,7 @@ const Public = new createBrowserRouter([
         {path: "/" ,  element: <Landing />},
         {path: "/Courses" ,  element: <Courses />}, 
         {path: "/Blog" ,  element: <Blog />},
-        {path: "/Blog-Details" ,  element: <BlogDetails />},                  
+        {path: "/Blogs/:id" ,  element: <BlogDetails />},                  
       ],
     },
         {path: "/Panel" ,  element: <Panel /> , children:[
@@ -29,6 +33,15 @@ const Public = new createBrowserRouter([
         {path: "/Panel/ChangePassword" ,  element: <PanelChangePassword />}, 
         {path: "/Panel/UserInformation" ,  element: <Information />},                  
         ]},  
+
+        {path: "/User/Register" ,  element: <UserLayout /> , children:[
+        {path: "/User/Register/" ,  element: <RegisterFormStep1 />},  
+        {path: "/User/Register/Step2" ,  element: <RegisterFormStep2/>},        
+        {path: "/User/Register/Step3" ,  element: <RegisterFormStep3/>},         
+      ]},  
+
+
+
     
   ]);
 

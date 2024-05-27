@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogVideo = () => {
   return (
-    <div className="w-[58.5%] h-[480px]  mx-auto">
+    <div className="w-[58.5%] h-[480px] mt-10  mx-auto ">
       <video
         className="h-full object-cover  rounded-3xl"
         controls

@@ -8,7 +8,7 @@ const CourseCardHeader = ({imageAlt,imageSrc}) => {
         <img
           src={imageSrc}
           alt={imageAlt}
-          className=" w-full h-full object-fill "
+          className=" w-full h-[180px] object-fill "
         />
       </div>
     </div>

@@ -6,7 +6,7 @@ import { Box } from './Box'
 
 const Services = () => {
   return (
-    <div className='full h-[40rem]  flex flex-wrap  mx-auto '>
+    <div className=' h-auto w-auto flex flex-wrap mt-20 sm:w-full'>
        <ServicesText />
        <ServicesItems />
     </div>

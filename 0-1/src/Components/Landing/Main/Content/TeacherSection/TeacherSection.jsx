@@ -107,7 +107,7 @@ const TeacherSection = () => {
       </div>
       <Slider {...settings}>
         {teacherData.map((product) => (
-          <div key={product.id}>
+          <div key={product.id} >
             <Teachers
               name={product.name}
               imgSrc={product.imageSrc}

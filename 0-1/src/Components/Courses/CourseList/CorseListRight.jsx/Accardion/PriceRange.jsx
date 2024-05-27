@@ -1,5 +1,6 @@
 import React , {useState} from 'react'
 
+
 const Min = 100;
 const Max = 12000;
 
@@ -17,7 +18,7 @@ const handleChange = (event) => {
          <div className='box'>
 
                 <h2>  {values}  </h2> 
-            
+                    
 
                  {/* <RangeSlider className='slider' onChange={setValues} value={values} min={Min} max={Max}/>  */}
               

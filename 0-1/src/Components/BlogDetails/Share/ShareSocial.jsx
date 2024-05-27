@@ -3,9 +3,9 @@ import { SharePic } from "./SharePic";
 
 const ShareSocial = () => {
   const webShare = [
-    { link: "#", pic: "./facebook.png" },
-    { link: "#", pic: "./twitter.png" },
-    { link: "#", pic: "./instagram.png" },
+    { link: "#", pic: "./../../../assets/images/Common/twitter.png" },
+    { link: "#", pic: "./../../../assets/images/Common/facebook.png" },
+    { link: "#", pic: "./../../../assets/images/Common/instagram.png" },
   ];
   return (
     <div className="w-[30%]  flex items-center justify-end gap-4 ml-4 ">

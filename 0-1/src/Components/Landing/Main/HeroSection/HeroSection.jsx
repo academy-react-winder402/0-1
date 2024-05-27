@@ -4,7 +4,7 @@ import style from './../../../../assets/images/LandingImages/header-bg.png'
 
 const HeroSection = () => {
   return (
-    <div className='w-full h-[40rem] flex justify-center item-center   mt-[-4rem] ' style={{width: `1440px` , height: `900px`   , backgroundImage: `url(${style})`}} > 
+    <div className='w-[100%] h-auto flex justify-center item-center bg-no-repeat mt-[-4rem]  sm:w-full  ' style={{width: `100%` , height: `900px`   , backgroundImage: `url(${style})`}} > 
           <HeroSectionItems />
     </div>
   )

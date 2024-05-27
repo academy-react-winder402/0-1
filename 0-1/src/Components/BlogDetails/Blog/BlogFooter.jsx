@@ -2,13 +2,11 @@ import React from "react";
 import { BlogViewDate} from "./BlogViewDate";
 import { BlogTeacher } from "./BlogTeacher";
 
-
-
-const BlogFooter = () => {
+const BlogFooter = ({teacher}) => {
   return (
-    <div className="h-[23%] flex justify-between items-end  mt-8">
+    <div className="h-[23%] flex justify-between items-end  mt-[70px] ">
        <BlogViewDate />
-       <BlogTeacher />
+       <BlogTeacher teacher={teacher} />
     </div>
   );
 };

@@ -1,10 +1,16 @@
-import React from "react";
-import { Rating } from "./Rating";
+import React , {useState} from "react";
+
+
 
 const RatingRaight = () => {
+
+
   return (
-    <div className="w-[45%] h-full flex gap-3 items-center ">
-      <Rating />
+    <div className="artcileDeailtCardsSettings flex-row-all-center justify-between">
+      <p className="f-semiBold">چه امتیازی برای این مقاله میدهید؟</p>
+      <div className="flex-row-all-center">
+  
+      </div>
       <span>امتیاز 20 نفر</span>
       <button
         type="submit"

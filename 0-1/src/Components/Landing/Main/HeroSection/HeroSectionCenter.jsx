@@ -7,11 +7,11 @@ import { Box } from './Box'
 const HeroSectionCenter = () => {
   return (
     <> 
-    <div className='w-full h-36 mt-10'>  <HeroSectionText /> </div>
-    <div className='w-full h-14 mt-10'><Search /> </div>
-    <div className='w-full h-36  flex justify-between mt-16 '  >  <HeroSectionIcons /> </div>    
+    <div className='w-full h-auto mt-10'>  <HeroSectionText /> </div>
+    <div className='w-full h-auto mt-10'><Search /> </div>
+    <div className='w-full h-auto md:flex   justify-between mt-16 cursor-pointer mt-5'  >  <HeroSectionIcons /> </div>    
      </>
   )
 }
 
-export  {HeroSectionCenter}
+export  {HeroSectionCenter} 

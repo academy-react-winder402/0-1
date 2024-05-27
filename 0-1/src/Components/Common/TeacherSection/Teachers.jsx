@@ -3,7 +3,7 @@ import React from "react";
 
 const Teachers = ({ name, imgSrc, courseCount, catg }) => {
   return (
-    <div className=" bg-transparent mt-5 h-fit flex flex-col justify-items-center dark:text-white    rounded-3xl cursor-pointer p-2 ">
+    <div className=" bg-transparent mt-5 h-fit flex flex-col justify-items-center dark:text-white     rounded-3xl cursor-pointer p-2 ">
       <div className=" bg-transparent w-100 flex justify-center h-1/3 mt-5  ">
         <div className="relative ">
           <img src={imgSrc} alt="#" className="rounded-2xl  h-[200px] " />

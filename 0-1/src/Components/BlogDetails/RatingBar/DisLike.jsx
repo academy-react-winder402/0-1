@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import dislike from './../../../assets/images/Common/dislike.png'
+import like from './../../../assets/images/Common/like.png'
 
 const Dislike = () => {
   const [likeCount, setLikeCount] = useState(0);
@@ -15,7 +17,7 @@ const Dislike = () => {
           onClick={handleLikeClick}
           className="bg-[#eceff1] rounded-2xl focus:outline-none flex items-center "
         >
-          <img src="./like.svg" alt="" className="w-[24px]" />
+          <img src={like} alt="" className="w-[24px]" />
           {likeCount}
         </button>
       </div>
@@ -24,7 +26,7 @@ const Dislike = () => {
           onClick={() => setDislikeCount(dislikeCount + 1)}
           className=" bg-[#eceff1] rounded-2xl focus:outline-none flex items-center "
         >
-          <img src="./dislike.svg" alt="" />
+          <img src={dislike} alt="" />
           {dislikeCount}
         </button>
       </div>

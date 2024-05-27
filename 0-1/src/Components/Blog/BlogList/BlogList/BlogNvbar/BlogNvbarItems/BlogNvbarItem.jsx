@@ -9,7 +9,7 @@ const BlogNvbarItem = () => {
     }
 
   return (
-    <div className='w-[40%] h-auto  flex justify-between item-center bg-white rounded-xl font-bold text-gray-500 mt-1'>
+    <div className='w-[44%] h-auto  flex justify-between  items-center bg-white rounded-xl font-bold text-gray-500 mt-1 mr-4 shadow-lg'>
         <BlogCheckBox  filterItems={filterItems}/>
     </div>
   )
